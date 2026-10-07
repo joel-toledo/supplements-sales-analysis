@@ -86,4 +86,21 @@ The data covers 16 products, 10 categories, 3 countries and 3 sales platforms.
 
 ---
 
+## Resumen en español
+
+**Pregunta del proyecto:** ¿por qué cayó el rendimiento de las ventas entre 2020 y 2024?
+
+Analicé 4,384 registros semanales de ventas de suplementos (enero 2020 a marzo 2025), con 16 productos, 10 categorías, 3 países y 3 plataformas de venta. Usé Excel (Power Pivot), SQL Server y Power BI (DAX).
+
+**Hallazgos principales:**
+- **Performance es la única categoría que cayó.** Sus ingresos bajaron 11.86% entre 2020 y 2024. Todas las demás crecieron.
+- **Es un problema de precio, no de volumen.** El precio promedio de Performance bajó 14.8% (de $38.15 a $32.51), mientras que las unidades vendidas subieron 2.86%.
+- **La caída no es igual en todos los países.** Canadá creció 3.96%, Reino Unido cayó 18.23% y Estados Unidos cayó 25.03%.
+- **La mayor caída es Creatine en Estados Unidos.** Sus ingresos bajaron 48.85%, con unidades y precio cada uno cerca de 29% más bajos. Pre-Workout cayó 9.85%.
+- **Las devoluciones no son la causa.** Performance tiene una tasa de devoluciones de 1.04% y el promedio es 1.02%. Todas las categorías están entre 0.94% y 1.07%.
+
+**Límites:** el dataset no tiene datos de costos, así que no pude analizar margen ni ganancia. Tampoco está declarado el origen de los datos en Kaggle. Los comentarios de las queries SQL están en inglés.
+
+---
+
 *Project developed as part of a personal Data Analytics portfolio.*
